@@ -1,0 +1,9 @@
+{
+  "name": "js-example",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "selenium-webdriver": "3.3.0",
+    "mocha": "3.2.0"
+  }
+}
