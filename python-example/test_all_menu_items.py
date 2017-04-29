@@ -10,8 +10,7 @@ def driver(request):
     return wd
 
 
-def test_example(driver):
-    pass
+def test_open_all_menu_pages(driver):
     driver.get("http://localhost/litecart/admin/login.php")
     driver.find_element(By.NAME, "username").send_keys("admin")
     driver.find_element(By.NAME, "password").send_keys("admin")
