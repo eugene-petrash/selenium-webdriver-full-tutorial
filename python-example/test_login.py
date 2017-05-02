@@ -38,7 +38,6 @@ def driver(request):
 
 
 def test_example(driver):
-    pass
     driver.get("http://localhost/litecart/admin/login.php")
     driver.find_element(By.NAME, "username").send_keys("admin")
     driver.find_element(By.NAME, "password").send_keys("admin")
